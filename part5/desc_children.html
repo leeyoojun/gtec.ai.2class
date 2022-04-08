@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+        <title>html5 basic page</title>
+        <style>
+            /* #header h1{color: red;} */
+            #header > h1{color: blue;}
+            #header > #nav > div > h1{color: red;}
+            #header > #nav > div > h2{color: blue;}
+            #section h1{color: orange;}
+            /* .title{color: red;} */
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <h1 class="title">Lorem ipsum h1자식</h1>
+            <div id="nav">
+                <h1>Navigation h1손자</h1>
+                <div>
+                    <h1>red h1증손자</h1>
+                    <h2>blue h2증손자</h2>
+                </div>
+            </div>
+        </div>
+        <div id="section">
+            <h1 class="title">Lorem ipsum</h1>
+            <h2>Navigation</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </body>
+</HTML>
