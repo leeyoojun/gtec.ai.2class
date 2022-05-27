@@ -1,0 +1,8 @@
+/* 세로 */
+@media screen and (orientation:portrait){
+    body{background-color: blue;}
+}
+/* 가로 */
+@media screen and (orientation:landscape){
+    body{background-color: #00ffff;}
+}
