@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+        <title>html5 basic page</title>
+        <script>
+            window.onload = function(){
+                var headers = document.querySelectorAll("h1");
+                for(var i=0;i<headers.length;i++){
+                    var header = headers[i];
+                    header.style.color = 'red';
+                    header.style.background = 'blue';
+                    header.innerHTML = "From JavaScript"+i;
+                }
+            };
+        </script>
+    </head>
+    <body>
+        <h1>Header1</h1>
+        <p>Lorem ipsum dolor amet</p>
+        <h1>Header2</h1>
+        <h1>Header3</h1>
+    </body>
+</HTML>
