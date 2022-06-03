@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+        <title>html5 basic page</title>
+        <script>
+            // var product = {제품명:'',유형:'',성분:'',원산지:''};
+            var product = {
+                제품명:'7D 건조 망고',
+                유형:'장절임',
+                성분:'망고, 설탕, 메타중아황산나트륨, 치자황색소',
+                원산지:'필리핀'
+            };
+            document.write(product['제품명']+'<br>');
+            document.write(product.제품명+'<br>');
+            
+            console.log(product['제품명']);
+            console.log(product.제품명);
+
+            for(var key in product){
+                document.write(key + ':' + product[key] + '<br>');
+                console.log(key + ':' + product[key]);
+            }
+        </script>
+    </head>
+    <body>
+    </body>
+</HTML>

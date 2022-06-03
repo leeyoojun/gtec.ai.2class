@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+        <title>html5 basic page</title>
+        <script>
+            var object = {
+                number:273,
+                string:'rintiantta',
+                boolean:true,
+                array:[32,273,103,'end'],
+                name:'홍길동',
+                method:function(food){
+                    document.write(this.name + '이 ' + food + '을 먹습니다.');
+                    console.log(this.name + '이 ' + food + '을 먹습니다.2');
+                }
+            };
+
+            object.method('밥');
+        </script>
+    </head>
+    <body>
+    </body>
+</HTML>

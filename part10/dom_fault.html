@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+        <title>html5 basic page</title>
+        <script>
+            //에러
+            // document.querySelector('h1').style.backgroundColor = 'red';
+            // document.querySelector('h2').style.color = 'red';
+            
+            //정상작동2
+            window.onload = function(){
+                document.querySelector('h1').style.backgroundColor = 'blue';
+                document.querySelector('h2').style.color = 'blue';
+            };
+        </script>
+    </head>
+    <body>
+        <h1>process - 1</h1>
+        <h2>process - 2</h2>
+        <script>
+            //정상작동1
+            // document.querySelector('h1').style.backgroundColor = 'red';
+            // document.querySelector('h2').style.color = 'red';
+        </script>        
+    </body>
+</HTML>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+        <title>html5 basic page</title>
+        <script>
+            function callTenTimes(callback1){
+                for(var i=0;i<10;i++){
+                    callback1(i);
+                }
+            }
+            // var callback = function(a){
+            //     document.write(a + ':함수 호출1<br>');
+            //     console.log(a + ':함수 호출2');
+            // }
+            // callTenTimes(callback);
+            callTenTimes(function(a){
+                document.write(a + ':함수 호출3<br>');
+                console.log(a + ':함수 호출4');
+            });
+        </script>
+    </head>
+    <body>
+    </body>
+</HTML>
